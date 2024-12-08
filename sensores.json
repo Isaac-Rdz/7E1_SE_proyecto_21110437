@@ -1,0 +1,192 @@
+{
+    "Sensores": {
+        "Temperatura": [
+            {
+                "codigo": "1",
+                "nombre": "Sensor de Temperatura",
+                "modelo": "PT100",
+                "marca": "Omega Engineering",
+                "rango_trabajo": "-200\u00c2\u00b0C a 850\u00c2\u00b0C",
+                "descripcion": "Los sensores de temperatura miden la energ\u00c3\u00ada t\u00c3\u00a9rmica generada por un objeto o sistema."
+            },
+            {
+                "codigo": "1.1",
+                "nombre": "Sensor de Temperatura",
+                "modelo": "RTD100",
+                "marca": "SIEMENS",
+                "rango_trabajo": "-100\u00c2\u00b0C a 100\u00c2\u00b0C",
+                "descripcion": "Los sensores de temperatura miden la energ\u00c3\u00ada t\u00c3\u00a9rmica generada por un objeto o sistema."
+            }
+        ],
+        "Presion": [
+            {
+                "codigo": "2",
+                "nombre": "Sensor de Presion",
+                "modelo": "PX500-USBH",
+                "marca": "Omega Engineering",
+                "rango_trabajo": "0 a 500,000 PSI",
+                "descripcion": "Los sensores de presi\u00c3\u00b3n convierten la fuerza ejercida por un fluido (l\u00c3\u00adquido o gas) en una se\u00c3\u00b1al el\u00c3\u00a9ctrica."
+            },
+            {
+                "codigo": "2.1",
+                "nombre": "Sensor de Presion",
+                "modelo": "PX600-USBH",
+                "marca": "Omega Engineering",
+                "rango_trabajo": "0 a 600,000 PSI",
+                "descripcion": "Los sensores de presi\u00c3\u00b3n convierten la fuerza ejercida por un fluido (l\u00c3\u00adquido o gas) en una se\u00c3\u00b1al el\u00c3\u00a9ctrica."
+            }
+        ],
+        "Nivel": [
+            {
+                "codigo": "3",
+                "nombre": "Sensor de Nivel",
+                "modelo": "VEGAPULS 30",
+                "marca": "VEGA",
+                "rango_trabajo": "0.01 m a 30 m",
+                "descripcion": "Miden el nivel de un material (l\u00c3\u00adquido o s\u00c3\u00b3lido granular) dentro de un contenedor. "
+            },
+            {
+                "codigo": "3.1",
+                "nombre": "Sensor de Nivel",
+                "modelo": "VEGAPULS 10",
+                "marca": "VEGA",
+                "rango_trabajo": "0.01 m a 10 m",
+                "descripcion": "Miden el nivel de un material (l\u00c3\u00adquido o s\u00c3\u00b3lido granular) dentro de un contenedor. "
+            }
+        ],
+        "Flujo": [
+            {
+                "codigo": "4",
+                "nombre": "Sensor de Flujo",
+                "modelo": "FLOMAT FLUXUS F721",
+                "marca": "Flexim",
+                "rango_trabajo": "0.1 L/min a 5,000 L/min",
+                "descripcion": "Los sensores de flujo miden la cantidad de fluido que pasa por un punto en un sistema."
+            },
+            {
+                "codigo": "4.1",
+                "nombre": "Sensor de Flujo",
+                "modelo": "FLOMAT FLUXUS F621",
+                "marca": "Flexim",
+                "rango_trabajo": "0.1 L/min a 2,000 L/min",
+                "descripcion": "Los sensores de flujo miden la cantidad de fluido que pasa por un punto en un sistema."
+            }
+        ],
+        "Gases": [
+            {
+                "codigo": "5",
+                "nombre": "Sensor de Gases",
+                "modelo": "MQ-7",
+                "marca": "Figaro",
+                "rango_trabajo": "0 ppm a 7,000 ppm",
+                "descripcion": "Detectan la presencia y concentraci\u00c3\u00b3n de gases espec\u00c3\u00adficos en el ambiente."
+            },
+            {
+                "codigo": "5.1",
+                "nombre": "Sensor de Gases",
+                "modelo": "MQ-10",
+                "marca": "Figaro",
+                "rango_trabajo": "0 ppm a 10,000 ppm",
+                "descripcion": "Detectan la presencia y concentraci\u00c3\u00b3n de gases espec\u00c3\u00adficos en el ambiente."
+            }
+        ],
+        "Ultrasonico": [
+            {
+                "codigo": "6",
+                "nombre": "Sensor Ultrasonico",
+                "modelo": "UC2000-L2-H2",
+                "marca": "Pepperl+Fuchs",
+                "rango_trabajo": "0.02 m a 3 m",
+                "descripcion": "Miden la distancia entre el sensor y un objeto utilizando ondas sonoras de alta frecuencia."
+            },
+            {
+                "codigo": "6.1",
+                "nombre": "Sensor Ultrasonico",
+                "modelo": "UC2000-L2-H3",
+                "marca": "Pepperl+Fuchs",
+                "rango_trabajo": "0.02 m a 3 m",
+                "descripcion": "Miden la distancia entre el sensor y un objeto utilizando ondas sonoras de alta frecuencia."
+            }
+        ],
+        "Laser": [
+            {
+                "codigo": "7",
+                "nombre": "Sensor Laser",
+                "modelo": "LMS100",
+                "marca": "SICK",
+                "rango_trabajo": "0.01 m a 100 m",
+                "descripcion": "Miden distancias o detectan objetos utilizando un rayo l\u00c3\u00a1ser."
+            },
+            {
+                "codigo": "7.1",
+                "nombre": "Sensor Laser",
+                "modelo": "LMS50",
+                "marca": "SICK",
+                "rango_trabajo": "0.01 m a 50 m",
+                "descripcion": "Miden distancias o detectan objetos utilizando un rayo l\u00c3\u00a1ser."
+            }
+        ],
+        "Proximidad Capacitativa": [
+            {
+                "codigo": "8",
+                "nombre": "Sensor de Proximidad Capacitativo",
+                "modelo": "E2K-C25MY1",
+                "marca": "Omron",
+                "rango_trabajo": "0.5 mm a 25 mm",
+                "descripcion": "Detectan objetos mediante el cambio en la capacitancia de un campo el\u00c3\u00a9ctrico alrededor del sensor."
+            },
+            {
+                "codigo": "8.1",
+                "nombre": "Sensor de Proximidad Capacitativo",
+                "modelo": "E2K-C50MY1",
+                "marca": "Omron",
+                "rango_trabajo": "0.5 mm a 50 mm",
+                "descripcion": "Detectan objetos mediante el cambio en la capacitancia de un campo el\u00c3\u00a9ctrico alrededor del sensor."
+            }
+        ],
+        "Vibracion": [
+            {
+                "codigo": "9",
+                "nombre": "Sensor de Vibracion Piezoelectrico",
+                "modelo": "352C33",
+                "marca": "PCB Piezotronics",
+                "rango_trabajo": "0 Hz a 10 kHz",
+                "descripcion": "Miden vibraciones o movimientos oscilatorios de un objeto o m\u00c3\u00a1quina."
+            },
+            {
+                "codigo": "9.1",
+                "nombre": "Sensor de Vibracion Piezoelectrico",
+                "modelo": "352C53",
+                "marca": "PCB Piezotronics",
+                "rango_trabajo": "0 Hz a 20 kHz",
+                "descripcion": "Miden vibraciones o movimientos oscilatorios de un objeto o m\u00c3\u00a1quina."
+            }
+        ],
+        "Proximidad Inductiva": [
+            {
+                "codigo": "10",
+                "nombre": "Sensor de Proximidad Inductivo",
+                "modelo": "IA30DSF15PO",
+                "marca": "Carlo Gavazzi",
+                "rango_trabajo": "0.1 mm a 15 mm",
+                "descripcion": "Detectan la presencia de objetos met\u00c3\u00a1licos a trav\u00c3\u00a9s de cambios en un campo magn\u00c3\u00a9tico generado por una bobina dentro del sensor."
+            },
+            {
+                "codigo": "10.1",
+                "nombre": "Sensor de Proximidad Inductivo",
+                "modelo": "IA30DSF20PO",
+                "marca": "Carlo Gavazzi",
+                "rango_trabajo": "0.1 mm a 20 mm",
+                "descripcion": "Detectan la presencia de objetos met\u00c3\u00a1licos a trav\u00c3\u00a9s de cambios en un campo magn\u00c3\u00a9tico generado por una bobina dentro del sensor."
+            },
+            {
+                "codigo": "10.2",
+                "nombre": "Sensor de Proximidad Inductivo",
+                "modelo": "adasdas",
+                "marca": "siemens",
+                "rango_trabajo": "0.1 mm a 50 mm",
+                "descripcion": "Detectan la presencia de objetos meta1licos a traves de cambios en un campo magnetico generado por una bobina dentro del sensor."
+            }
+        ]
+    }
+}
